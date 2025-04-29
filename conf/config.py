@@ -1,0 +1,20 @@
+API_KEY = "YOUR_API"
+MODEL_URL = "https://detect.roboflow.com/metersocr7/1"
+CONFIDENCE = 50
+OVERLAP = 50
+
+COUNTER = 0
+
+CAMERA_URL = "YOUR_CAMERA"
+CAPTURE_INTERVAL_SECONDS = 200   
+CROP_REGION = (700, 120, 1250, 450)
+
+LOCAL_MODEL ="model/best.pt"
+OUTPUT_DIR = "outputs/"
+
+
+#database
+HOST = 'IP'
+USER = 'USERNAME'
+PASSWORD = 'DB_PASSWORD'
+DATABASE = 'DB_NAME'
