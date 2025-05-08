@@ -59,3 +59,5 @@ def first_order_difference(arr: list) -> bool:
     positive_steps = sum(1 for i in range(len(arr) - 1) if arr[i+1] > arr[i])
     return positive_steps / (len(arr) - 1) >= 0.6
 
+## 🧪 Image Preprocessing
+Images are first cropped, then specific regions are masked (e.g. irrelevant parts of the display), followed by contrast enhancement, sharpening, and Gaussian blurring. This prepares the image for YOLO detection.
